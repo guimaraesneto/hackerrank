@@ -6,9 +6,9 @@ algorithms > warmup
 
 - Warmup Challenges
 
-=================================
-       1 - Solve Me First
-=================================
+
+>>>1 - Solve Me First
+
 
 Welcome to HackerRank! The purpose of this challenge is to familiarize you with reading input from stdin (the standard input stream) and writing output to stdout (the standard output stream) using our environment.
 
@@ -24,9 +24,9 @@ Output Format
 
 Code that prints the sum calculated and returned by solveMeFirst is provided for you in the editor.
 
-=================================
-     2 - Simple Array Sum
-=================================
+
+>>>2 - Simple Array Sum
+
 
 Given an array of N integers, can you find the sum of its elements?
 
@@ -50,9 +50,9 @@ Explanation
 
 We print the sum of the array's elements, which is: 1+2+3+4+10+11=31
 
-=================================
-    3 - Compare the Triplets
-=================================
+
+>>>3 - Compare the Triplets
+
 
 Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty.
 
