@@ -21,28 +21,3 @@ Code that reads input from stdin is provided for you in the editor. There are  l
 Output Format
 
 Code that prints the sum calculated and returned by solveMeFirst is provided for you in the editor.
-
-1_solve_me_first.c
-
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-using namespace std;
-
-
-int solveMeFirst(int a, int b) {
- // Hint: Type return a+b; below:
-  
-}
-int main() {
-  int num1, num2;
-  int sum;
-  cin>>num1>>num2;
-  sum = solveMeFirst(num1,num2);
-  cout<<sum;
-  return 0;
-}
-	
-
