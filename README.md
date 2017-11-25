@@ -200,3 +200,82 @@ Explanation
 
 There are 3 positive numbers, 3 negative numbers, and 1 zero in the array. 
 The respective fractions of positive numbers, negative numbers and zeroes are 3/6 = 0.500000, 2/6 = 0.33333 anda 1/6 = 0.166667, respectively.
+
+=================================
+7 - Staircase
+=================================
+Staircase
+Consider a staircase of size n = 4:
+#
+##
+###
+####
+
+Observe that its base and height are both equal to n, and the image is drawn using # symbols and spaces. The last line is not preceded by any spaces.
+
+Write a program that prints a staircase of size n.
+
+Input Format
+
+A single integer, n, denoting the size of the staircase.
+
+Output Format
+
+Print a staircase of size n using # symbols and spaces.
+
+Note: The last line must have 0 spaces in it.
+
+Sample Input
+
+6
+Sample Output
+
+#
+##
+###
+####
+#####
+######
+Explanation
+
+The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of n = 6.
+
+
+=================================
+8 - Mini-Max Sum
+=================================
+
+Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+
+Input Format
+
+A single line of five space-separated integers.
+
+Constraints
+
+Each integer is in the inclusive range [1,10ˆ9].
+Output Format
+
+Print two space-separated long integers denoting the respective minimum and maximum values that can be calculated by summing exactly four of the five integers. (The output can be greater than 32 bit integer.)
+
+Sample Input
+
+1 2 3 4 5
+Sample Output
+
+10 14
+Explanation
+
+Our initial numbers are 1, 2, 3, 4, and 5. We can calculate the following sums using four of the five integers:
+
+1 If we sum everything except 1, our sum is 2+3+4+5=14.
+2 If we sum everything except 2, our sum is 1+3+4+5=13.
+3 If we sum everything except 3, our sum is 1+2+4+5=12.
+4 If we sum everything except 4, our sum is 1+2+3+5=11.
+5 If we sum everything except 5, our sum is 1+2+3+4=10.
+
+As you can see, the minimal sum is 2+3+4+5=14 and the maximal sum is 1+2+3+4=10. Thus, we print these minimal and maximal sums as two space-separated integers on a new line.
+
+Hints: Beware of integer overflow! Use 64-bit Integer.
+
+
