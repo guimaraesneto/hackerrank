@@ -278,4 +278,57 @@ As you can see, the minimal sum is 2+3+4+5=14 and the maximal sum is 1+2+3+4=10.
 
 Hints: Beware of integer overflow! Use 64-bit Integer.
 
+=================================
+9 Birthday Cake Candles
+=================================
 
+Colleen is turning n years old! Therefore, she has n candles of various heights on her cake, and candle i has height height_i. Because the taller candles tower over the shorter ones, Colleen can only blow out the tallest candles.
+
+Given the height_i for each individual candle, find and print the number of candles she can successfully blow out.
+
+Input Format
+
+The first line contains a single integer, n, denoting the number of candles on the cake.
+The second line contains n space-separated integers, where each integer i describes the height of candle i.
+
+Constraints
+1 <= n < 10ˆ5
+1 <= height_i <=10ˆ7
+
+Output Format
+
+Print the number of candles Colleen blows out on a new line.
+
+Sample Input 0
+
+4
+3 2 1 3
+Sample Output 0
+
+2
+Explanation 0
+
+We have one candle of height 1, one candle of height 2, and two candles of height 3. Colleen only blows out the tallest candles, meaning the candles where height = 3. Because there are 2 such candles, we print 2 on a new line.
+
+=================================
+10 Time Conversion
+=================================
+
+Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
+
+Note: Midnight is 12:00:00 AM on a 12-hour clock, and 00:00:00 on a 24-hour clock. Noon is 12:00:00 PM on a 12-hour clock, and 12:00:00 on a 24-hour clock.
+
+Input Format
+
+A single string containing a time in 12-hour clock format (i.e.: hh:mm:ss AM or hh:mm:ss PM), where 01 <= hh <12 and 00 <= mm, ss <= 59.
+
+Output Format
+
+Convert and print the given time in 24-hour format, where 00 <= hh <= 23.
+
+Sample Input
+
+07:05:45PM
+Sample Output
+
+19:05:45
